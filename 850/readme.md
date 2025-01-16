@@ -1,14 +1,18 @@
 # Setup in remote
+```bash
 cd remote
 bun install
 bunx kendo-ui-license activate
 bun run mfe
+```
 
 # Setup in host (in another console window)
+```bash
 cd host
 bun install
 bunx kendo-ui-license activate
 bun run dev
+```
 
 # End result:
 http://localhost:5170 loads, and on redering KendoReactGrid throws in console:
