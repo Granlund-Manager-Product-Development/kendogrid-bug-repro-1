@@ -1,3 +1,5 @@
+You can also run this with npm, by substituting `bun` with `npm`.
+
 # Setup in remote
 ```bash
 cd remote
